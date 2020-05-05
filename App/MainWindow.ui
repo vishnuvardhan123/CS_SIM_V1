@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="Min_Win"/>
+    <addaction name="Max_Win"/>
+    <addaction name="Exit"/>
+   </widget>
+   <widget class="QMenu" name="OP_Mode">
+    <property name="title">
+     <string>Operation Mode</string>
+    </property>
+    <addaction name="LRU_IP_Setting"/>
+    <addaction name="LRU_Status"/>
+    <addaction name="Mode_Selec"/>
+    <addaction name="VSAT_NMS_App"/>
+    <addaction name="VER_SW_App"/>
+    <addaction name="RF_Plng_Tool_App"/>
+   </widget>
+   <widget class="QMenu" name="Maint_Mode">
+    <property name="title">
+     <string>Maintenance Mode</string>
+    </property>
+    <addaction name="Fault_Sim"/>
+    <addaction name="Maint_Videos"/>
+    <addaction name="Maint_Files"/>
+   </widget>
+   <widget class="QMenu" name="TR_Mode">
+    <property name="title">
+     <string>Training Mode</string>
+    </property>
+    <widget class="QMenu" name="Deployment">
+     <property name="title">
+      <string>Deployment</string>
+     </property>
+     <addaction name="Dply_PPTs"/>
+     <addaction name="Dply_Manuals"/>
+     <addaction name="Dply_Videos"/>
+    </widget>
+    <widget class="QMenu" name="Maint_Sim">
+     <property name="title">
+      <string>Maintenance Simulator</string>
+     </property>
+     <addaction name="Simr_with_Faults"/>
+     <addaction name="PPTs"/>
+     <addaction name="Manuals"/>
+     <addaction name="Tech_Manual"/>
+     <addaction name="Tech_Videos"/>
+    </widget>
+    <addaction name="OP_Sim"/>
+    <addaction name="Maint_Sim"/>
+    <addaction name="Deployment"/>
+   </widget>
+   <widget class="QMenu" name="Settings">
+    <property name="title">
+     <string>Settings</string>
+    </property>
+    <addaction name="Pass_Reset"/>
+   </widget>
+   <widget class="QMenu" name="Help">
+    <property name="title">
+     <string>Help</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="About">
+    <property name="title">
+     <string>About</string>
+    </property>
+   </widget>
+   <addaction name="menuMenu"/>
+   <addaction name="OP_Mode"/>
+   <addaction name="Maint_Mode"/>
+   <addaction name="TR_Mode"/>
+   <addaction name="Settings"/>
+   <addaction name="Help"/>
+   <addaction name="About"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="Min_Win">
+   <property name="text">
+    <string>Minimize</string>
+   </property>
+  </action>
+  <action name="Max_Win">
+   <property name="text">
+    <string>Maxmaize</string>
+   </property>
+  </action>
+  <action name="Exit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="LRU_IP_Setting">
+   <property name="text">
+    <string>LRU IP Setting</string>
+   </property>
+  </action>
+  <action name="LRU_Status">
+   <property name="text">
+    <string>LRU Status</string>
+   </property>
+  </action>
+  <action name="Mode_Selec">
+   <property name="text">
+    <string>Mode Selection</string>
+   </property>
+  </action>
+  <action name="VSAT_NMS_App">
+   <property name="text">
+    <string>VSAT NMS APP</string>
+   </property>
+  </action>
+  <action name="VER_SW_App">
+   <property name="text">
+    <string>VER S/W APP</string>
+   </property>
+  </action>
+  <action name="RF_Plng_Tool_App">
+   <property name="text">
+    <string>RF Planning Tool APP</string>
+   </property>
+  </action>
+  <action name="Fault_Sim">
+   <property name="text">
+    <string>Fault Simulation</string>
+   </property>
+  </action>
+  <action name="Maint_Videos">
+   <property name="text">
+    <string>Maintenace Videos</string>
+   </property>
+  </action>
+  <action name="Maint_Files">
+   <property name="text">
+    <string>Maintenance Files</string>
+   </property>
+  </action>
+  <action name="OP_Sim">
+   <property name="text">
+    <string>Operation Simulation</string>
+   </property>
+  </action>
+  <action name="Dply_PPTs">
+   <property name="text">
+    <string>PPTs</string>
+   </property>
+  </action>
+  <action name="Dply_Manuals">
+   <property name="text">
+    <string>Manuals</string>
+   </property>
+  </action>
+  <action name="Dply_Videos">
+   <property name="text">
+    <string>Videos</string>
+   </property>
+  </action>
+  <action name="Simr_with_Faults">
+   <property name="text">
+    <string>Simulator with Faults</string>
+   </property>
+  </action>
+  <action name="PPTs">
+   <property name="text">
+    <string>PPTs</string>
+   </property>
+  </action>
+  <action name="Manuals">
+   <property name="text">
+    <string>Manuals</string>
+   </property>
+  </action>
+  <action name="Tech_Manual">
+   <property name="text">
+    <string>Technical Manual</string>
+   </property>
+  </action>
+  <action name="Tech_Videos">
+   <property name="text">
+    <string>Videos</string>
+   </property>
+  </action>
+  <action name="Pass_Reset">
+   <property name="text">
+    <string>Password Reset</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

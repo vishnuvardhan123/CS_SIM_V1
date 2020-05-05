@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="Login">
+    <file>Login_Image.png</file>
+  </qresource>
+  <qresource prefix="Grey LED">
+    <file>ledCornerGray.bmp</file>
+  </qresource>
+</RCC>
